@@ -1,9 +1,9 @@
-const string = "	fox i  n the b ox  	";
-let removeSpaceInaString = "";
+const word = "	fox i  n the b ox  	";
+let removeSpaceInaWord = "";
 
-for (let i = 0; i < string.length; i++) {
-    if (string[i] !== ' ') {
-         removeSpaceInaString += string[i];
+for (let i = 0; i < word.length; i++) {
+    if (word[i] !== ' ' ) {
+         removeSpaceInaWord += word[i];
     }
 }
-console.log(removeSpaceInaString)
+console.log(removeSpaceInaWord)
